@@ -1,0 +1,77 @@
+{
+"env": {
+"browser": true,
+"es2021": true
+},
+"extends": [
+"eslint:recommended"
+],
+"parserOptions": {
+"ecmaVersion": "latest",
+"sourceType": "module"
+},
+"globals": {
+"$": "readonly"
+},
+"rules": {
+"eqeqeq": 2,
+"comma-dangle": [
+2,
+{
+"arrays": "only-multiline",
+"objects": "only-multiline"
+}
+],
+"no-console": 0,
+"no-debugger": 1,
+"no-extra-semi": 1,
+"no-extra-parens": 1,
+"no-irregular-whitespace": 0,
+"no-undef": 2,
+"no-unused-vars": 0,
+"semi": 1,
+"semi-spacing": 1,
+"valid-jsdoc": [
+2,
+{
+"requireReturn": false
+}
+],
+"quotes": [
+2,
+"single"
+],
+"prefer-const": 2,
+"no-var": 2,
+"no-new-object": 2,
+"object-shorthand": [
+2,
+"consistent"
+],
+"quote-props": [
+2,
+"as-needed"
+],
+"no-array-constructor": 2,
+"prefer-destructuring": 1,
+"prefer-template": 1,
+"no-eval": 2,
+"prefer-rest-params": 2,
+"prefer-arrow-callback": 2,
+"arrow-spacing": 1,
+"arrow-parens": [
+2,
+"as-needed"
+],
+"arrow-body-style": 2,
+"dot-notation": 2,
+"one-var": 0,
+"no-multi-assign": 2,
+"no-unneeded-ternary": 2,
+"nonblock-statement-body-position": 2,
+"spaced-comment": 0,
+"space-before-blocks": 1,
+"keyword-spacing": 1,
+"camelcase": 2
+}
+}
